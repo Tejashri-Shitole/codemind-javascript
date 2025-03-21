@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Local Storage Assignment</title>
+</head>
+<body>
+    <h2>Local Web Storage Assignment</h2>
+    <li>Data stored in local storage will not expire. It will remain even after browser restart
+        and survives OS reboot too</li>
+    <li> Data is shared between all tabs</li>
+    <script>
+        window.localStorage.setItem("name", "Tejashri Anil Shitole");
+        window.localStorage.setItem("city", "Vita");
+        window.localStorage.setItem("pin code", "415311");
+        window.localStorage.setItem("district", "Sangli");
+        window.localStorage.removeItem("name");
+        window.localStorage.removeItem("city");
+        window.localStorage.removeItem("pin code");
+        window.localStorage.removeItem("district");
+    </script>
+</body>
+</html>
